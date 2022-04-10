@@ -7,6 +7,7 @@ pip install -r requirements.txt
 
 # Running
 cd openrocketengine/core
+
 python interface.py test_config.cfg
 
 <!-- References -->
