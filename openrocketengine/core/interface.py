@@ -3,7 +3,7 @@ from __future__ import print_function, division, absolute_import
 import os
 import pandas as pd
 import fire
-from openrocketengine.core.rocket import Engine
+from rocket import Engine
 
 
 standard_types = {

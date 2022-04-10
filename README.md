@@ -2,6 +2,13 @@
 ![Python package](https://github.com/cmflannery/openrocketengine/workflows/Python%20package/badge.svg)
 [openrocketengine](https://github.com/cmflannery/openrocketengine) is an open source project designed to help with the design and development of liquid rocket engines.
 
+# INSTALLATION
+pip install -r requirements.txt
+
+# Running
+cd openrocketengine/core
+python interface.py test_config.cfg
+
 <!-- References -->
 [1]: http://soliton.ae.gatech.edu/people/jseitzma/classes/ae6450/bell_nozzle.pdf "GATech: Bell Nozzles"
 [2]: https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19710019929.pdf "Design of Liquid Propellant Rocket Engines"

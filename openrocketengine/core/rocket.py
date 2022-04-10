@@ -555,12 +555,14 @@ class Engine:
         outputName = "rocket_{name}_{now}.xlsx".format(
             name=self.name, now=datetime.utcnow().strftime("%Y_%m_%d")
         )
+        print(outputName)
         workbook = xlsxwriter.Workbook(outputName)
         geometryWorksheet = workbook.add_worksheet("geometry")
         performanceWorksheet = workbook.add_worksheet("performance")
 
         self._write_performance(performanceWorksheet)
         self._write_geometry(geometryWorksheet)
+        workbook.close()
 
     def _write_performance(self, performanceWorksheet):
         """Write performance values to worksheet"""
